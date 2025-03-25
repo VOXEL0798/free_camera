@@ -1,0 +1,8 @@
+[package]
+name = "free_camera"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.15.3", features = ["wayland"] }
+bevy-butler = "0.5.6"
